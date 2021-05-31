@@ -1,3 +1,2 @@
-# BigBinnie.github.io
-Personal Page
+# Personal Page
 The link is https://bigbinnie.github.io
