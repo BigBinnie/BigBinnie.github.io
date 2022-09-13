@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Appication Development | Binwei Yao</title>
+    <link>https://github.io/tag/appication-development/</link>
+      <atom:link href="https://github.io/tag/appication-development/index.xml" rel="self" type="application/rss+xml" />
+    <description>Appication Development</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Appication Development</title>
+      <link>https://github.io/tag/appication-development/</link>
+    </image>
+    
+    <item>
+      <title>Naive Gdocs</title>
+      <link>https://github.io/project/4-gdocs/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.io/project/4-gdocs/</guid>
+      <description>&lt;p&gt;Naive Gdocs is a shared document platform supporting collaborative editing like &lt;a href=&#34;https://www.google.com/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Docs&lt;/a&gt;, based on a distributed system. This project includes the frontend by React, backend by Springboot, distributed file system by &lt;a href=&#34;https://zookeeper.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zookeeper&lt;/a&gt;, Redis lock server, and MongoDB database.&lt;/p&gt;
+&lt;p&gt;For the front end, WebSocket is used to synchronize editing status. For the backend, Redis, as memory storage, is used as a lock server to assure correct execution of operations. The distributed file system comprises Master, ChunkServer, Client node, and Zookeeper cluster. The Master is mainly responsible for maintaining the metadata of the file system, the ChunkServer is accountable for the storage of file data in the file system, the Client is responsible for providing the file system interface to the upper-layer application, and the Zookeeper is responsible for coordinating each member in the system which maintains the read-write locks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amoy Interest</title>
+      <link>https://github.io/project/5-amoy/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://github.io/project/5-amoy/</guid>
+      <description>&lt;p&gt;Amoy Interest, meaning finding your interest in Chinese, is a social media platform like &lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://weibo.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weibo&lt;/a&gt;. Users could share their daily life with everyone on the platform and make friends with people having the same interests conveniently.&lt;/p&gt;
+&lt;p&gt;The frontend of this platform is built by React, and the Backend is built by SpringBoot. We store data by Mycat for master-slave storage to increase the read-write speed. Additionally, we construct our CI-CD environment by Jenkins.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
