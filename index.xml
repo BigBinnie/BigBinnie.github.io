@@ -59,6 +59,16 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
+      <title>Depression Screening Agent</title>
+      <link>https://github.io/project/0-depression/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://github.io/project/0-depression/</guid>
+      <description>&lt;p&gt;The Adroid App is aimed at collecting depression symptoms of users for depression screening, which supports the speech input.&lt;/p&gt;
+&lt;p&gt;The NLU model for intent recognization of NLU module is based on similarity calculation and regular matching and the NLG model for response generation of the dialogue managment module is based on the state machine. Meanwhile, core depressive symptoms are extracted into semantic slots and stored in the dialogue state to control the dialogue flow in a user-specific way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MobileNet</title>
       <link>https://github.io/project/1-mobilenet/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>

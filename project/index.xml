@@ -5,12 +5,22 @@
     <link>https://github.io/project/</link>
       <atom:link href="https://github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://github.io/media/icon_hu4432d98614fd4a3cfcb53f08870846bc_12792_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Depression Screening Agent</title>
+      <link>https://github.io/project/0-depression/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://github.io/project/0-depression/</guid>
+      <description>&lt;p&gt;The Adroid App is aimed at collecting depression symptoms of users for depression screening, which supports the speech input.&lt;/p&gt;
+&lt;p&gt;The NLU model for intent recognization of NLU module is based on similarity calculation and regular matching and the NLG model for response generation of the dialogue managment module is based on the state machine. Meanwhile, core depressive symptoms are extracted into semantic slots and stored in the dialogue state to control the dialogue flow in a user-specific way.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MobileNet</title>
