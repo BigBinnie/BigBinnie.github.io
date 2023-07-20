@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 | Binwei Yao</title>
-    <link>https://github.io/publication-type/3/</link>
-      <atom:link href="https://github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
-    <description>3</description>
+    <title>machine translation | Binwei Yao</title>
+    <link>https://github.io/tag/machine-translation/</link>
+      <atom:link href="https://github.io/tag/machine-translation/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine translation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://github.io/media/icon_hu4432d98614fd4a3cfcb53f08870846bc_12792_512x512_fill_lanczos_center_3.png</url>
-      <title>3</title>
-      <link>https://github.io/publication-type/3/</link>
+      <title>machine translation</title>
+      <link>https://github.io/tag/machine-translation/</link>
     </image>
     
     <item>
