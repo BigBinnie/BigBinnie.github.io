@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Binwei Yao</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://bigbinnie.github.io/</link>
+      <atom:link href="https://bigbinnie.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Binwei Yao</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
+      <url>https://bigbinnie.github.io/media/icon_hu14714844422874491346.png</url>
       <title>Binwei Yao</title>
-      <link>http://localhost:1313/</link>
+      <link>https://bigbinnie.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/event/example/</link>
+      <link>https://bigbinnie.github.io/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/example/</guid>
+      <guid>https://bigbinnie.github.io/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>No Preference Left Behind: Group Distributional Preference Optimization</title>
-      <link>http://localhost:1313/publication/gdpo/</link>
+      <link>https://bigbinnie.github.io/publication/gdpo/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gdpo/</guid>
+      <guid>https://bigbinnie.github.io/publication/gdpo/</guid>
       <description>&lt;!-- 
 
 
@@ -76,9 +76,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Benchmarking Machine Translation with Cultural Awareness</title>
-      <link>http://localhost:1313/publication/cmt/</link>
+      <link>https://bigbinnie.github.io/publication/cmt/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cmt/</guid>
+      <guid>https://bigbinnie.github.io/publication/cmt/</guid>
       <description>&lt;!-- 
 
 
@@ -117,25 +117,25 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://bigbinnie.github.io/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://bigbinnie.github.io/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CS400 Programming III</title>
-      <link>http://localhost:1313/teaching/js-2/</link>
+      <link>https://bigbinnie.github.io/teaching/js-2/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js-2/</guid>
+      <guid>https://bigbinnie.github.io/teaching/js-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/post/get-started/</link>
+      <link>https://bigbinnie.github.io/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/get-started/</guid>
+      <guid>https://bigbinnie.github.io/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -219,9 +219,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:1313/post/second-brain/</link>
+      <link>https://bigbinnie.github.io/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/second-brain/</guid>
+      <guid>https://bigbinnie.github.io/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -331,9 +331,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:1313/post/data-visualization/</link>
+      <link>https://bigbinnie.github.io/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/data-visualization/</guid>
+      <guid>https://bigbinnie.github.io/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -344,7 +344,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
-&lt;div id=&#34;chart-137965824&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-265439187&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -362,7 +362,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-137965824&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-265439187&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -541,9 +541,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:1313/post/teach-courses/</link>
+      <link>https://bigbinnie.github.io/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/teach-courses/</guid>
+      <guid>https://bigbinnie.github.io/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -593,7 +593,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://bigbinnie.github.io/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -652,17 +652,17 @@ data.head()
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://bigbinnie.github.io/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://bigbinnie.github.io/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>http://localhost:1313/post/project-management/</link>
+      <link>https://bigbinnie.github.io/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/project-management/</guid>
+      <guid>https://bigbinnie.github.io/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -735,17 +735,17 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>CS400 Programming III</title>
-      <link>http://localhost:1313/teaching/js/</link>
+      <link>https://bigbinnie.github.io/teaching/js/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js/</guid>
+      <guid>https://bigbinnie.github.io/teaching/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Reliable and Empathetic Depression-Diagnosis-Oriented Chats</title>
-      <link>http://localhost:1313/publication/d4-2/</link>
+      <link>https://bigbinnie.github.io/publication/d4-2/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/d4-2/</guid>
+      <guid>https://bigbinnie.github.io/publication/d4-2/</guid>
       <description>&lt;!-- 
 
 
@@ -784,9 +784,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>D4: a Chinese Dialogue Dataset for Depression-­Diagnosis-­Oriented Chat</title>
-      <link>http://localhost:1313/publication/d4/</link>
+      <link>https://bigbinnie.github.io/publication/d4/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/d4/</guid>
+      <guid>https://bigbinnie.github.io/publication/d4/</guid>
       <description>&lt;!-- 
 
 
@@ -825,9 +825,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>MSDWild: Multi­modal Speaker Diarization Dataset in the Wild</title>
-      <link>http://localhost:1313/publication/mswild/</link>
+      <link>https://bigbinnie.github.io/publication/mswild/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mswild/</guid>
+      <guid>https://bigbinnie.github.io/publication/mswild/</guid>
       <description>&lt;!-- 
 
 
@@ -866,9 +866,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Depression Screening Agent</title>
-      <link>http://localhost:1313/project/0-depression/</link>
+      <link>https://bigbinnie.github.io/project/0-depression/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/0-depression/</guid>
+      <guid>https://bigbinnie.github.io/project/0-depression/</guid>
       <description>&lt;p&gt;The Adroid App is aimed at collecting depression symptoms of users for depression screening, which supports the speech input.&lt;/p&gt;
 &lt;p&gt;The NLU model for intent recognization of NLU module is based on similarity calculation and regular matching and the NLG model for response generation of the dialogue managment module is based on the state machine. Meanwhile, core depressive symptoms are extracted into semantic slots and stored in the dialogue state to control the dialogue flow in a user-specific way.&lt;/p&gt;
 </description>
@@ -876,9 +876,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>MobileNet</title>
-      <link>http://localhost:1313/project/1-mobilenet/</link>
+      <link>https://bigbinnie.github.io/project/1-mobilenet/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/1-mobilenet/</guid>
+      <guid>https://bigbinnie.github.io/project/1-mobilenet/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1801.04381.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobileNet&lt;/a&gt; is a class of efficient light weight deep networks for mobile and embedded vision applications, which have fewer parameters and a relatively lower amount of calculation. Mobilenets use depthwise separable convolutions, which could be divided into depthwise and pointwise convolutions.&lt;/p&gt;
 &lt;p&gt;Since most of the model&amp;rsquo;s operations are convolutions, our project focuses on optimizing the related operations of convolutions. Our optimizing method includes: improving the parallelism by assigning the calculation task of each pixel to a thread, avoiding unnecessary memory data handling, and putting operations such as memory application in the model initialization stage as much as possible.&lt;/p&gt;
 &lt;p&gt;With above optimizations, we went from 2s per inference initially to only 7.7ms per inference.&lt;/p&gt;
@@ -887,9 +887,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Hierarchical Chatbot</title>
-      <link>http://localhost:1313/project/2-chatbot/</link>
+      <link>https://bigbinnie.github.io/project/2-chatbot/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/2-chatbot/</guid>
+      <guid>https://bigbinnie.github.io/project/2-chatbot/</guid>
       <description>&lt;p&gt;The chatbot has a hierarchical framework comprising the utterance encoder, the context encoder, and the decoder. RNN, as the utterance encoder, encodes the words in an utterance. The transformer encoder, as the context encoder, encodes the utterance encoder&amp;rsquo;s output, and the RNN decoder takes the attention calculation result of the context encoder as the input.&lt;/p&gt;
 &lt;p&gt;The strength of such a model is that the utterance encoder makes it possible for us to input a more extended context of the dialogue for restriction by the Transformer&amp;rsquo;s input size. Considering the Transformer we used isn&amp;rsquo;t pretrained in advance, the model performance is limited.&lt;/p&gt;
 &lt;p&gt;The model implemented by us is 0.03 higher than the baseline on F1_BLEU.&lt;/p&gt;
@@ -898,9 +898,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>SRCNN</title>
-      <link>http://localhost:1313/project/3-srcnn/</link>
+      <link>https://bigbinnie.github.io/project/3-srcnn/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/3-srcnn/</guid>
+      <guid>https://bigbinnie.github.io/project/3-srcnn/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1501.00092.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SRCNN&lt;/a&gt; learns an end-to-end
 mapping between the low/high-resolution images by convolutional neural network (CNN). Given a low-resolution image Y, the first convolutional layer of the SRCNN extracts a set of feature maps. The second layer maps these feature maps nonlinearly to high-resolution patch representations. The last layer combines the predictions within a spatial neighbourhood to produce the final high-resolution image.&lt;/p&gt;
 &lt;p&gt;This learning project aims at reproducing the SRCNN.&lt;/p&gt;
@@ -909,9 +909,9 @@ mapping between the low/high-resolution images by convolutional neural network (
     
     <item>
       <title>Naive Gdocs</title>
-      <link>http://localhost:1313/project/4-gdocs/</link>
+      <link>https://bigbinnie.github.io/project/4-gdocs/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/4-gdocs/</guid>
+      <guid>https://bigbinnie.github.io/project/4-gdocs/</guid>
       <description>&lt;p&gt;Naive Gdocs is a shared document platform supporting collaborative editing like &lt;a href=&#34;https://www.google.com/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Docs&lt;/a&gt;, based on a distributed system. This project includes the frontend by React, backend by Springboot, distributed file system by &lt;a href=&#34;https://zookeeper.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zookeeper&lt;/a&gt;, Redis lock server, and MongoDB database.&lt;/p&gt;
 &lt;p&gt;For the front end, WebSocket is used to synchronize editing status. For the backend, Redis, as memory storage, is used as a lock server to assure correct execution of operations. The distributed file system comprises Master, ChunkServer, Client node, and Zookeeper cluster. The Master is mainly responsible for maintaining the metadata of the file system, the ChunkServer is accountable for the storage of file data in the file system, the Client is responsible for providing the file system interface to the upper-layer application, and the Zookeeper is responsible for coordinating each member in the system which maintains the read-write locks.&lt;/p&gt;
 </description>
@@ -919,9 +919,9 @@ mapping between the low/high-resolution images by convolutional neural network (
     
     <item>
       <title>Amoy Interest</title>
-      <link>http://localhost:1313/project/5-amoy/</link>
+      <link>https://bigbinnie.github.io/project/5-amoy/</link>
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/5-amoy/</guid>
+      <guid>https://bigbinnie.github.io/project/5-amoy/</guid>
       <description>&lt;p&gt;Amoy Interest, meaning finding your interest in Chinese, is a social media platform like &lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://weibo.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weibo&lt;/a&gt;. Users could share their daily life with everyone on the platform and make friends with people having the same interests conveniently.&lt;/p&gt;
 &lt;p&gt;The frontend of this platform is built by React, and the Backend is built by SpringBoot. We store data by Mycat for master-slave storage to increase the read-write speed. Additionally, we construct our CI-CD environment by Jenkins.&lt;/p&gt;
 </description>
@@ -929,9 +929,9 @@ mapping between the low/high-resolution images by convolutional neural network (
     
     <item>
       <title>KV Store</title>
-      <link>http://localhost:1313/project/6-kvstore/</link>
+      <link>https://bigbinnie.github.io/project/6-kvstore/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/6-kvstore/</guid>
+      <guid>https://bigbinnie.github.io/project/6-kvstore/</guid>
       <description>&lt;p&gt;The KV storage system is based on a log-­structured merge-­tree in the disk and skiplist cache in memory. The MemTable in memory caches small-scale data in memory for quick read-write operations, and the SSTable have a level structure which stores data by a log-structured merge-tree.&lt;/p&gt;
 &lt;p&gt;By optimizing the way of adding, deleting, checking, and modifying using algorithms like MergeSort, I constructed a quick KV Store system.&lt;/p&gt;
 </description>

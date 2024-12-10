@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java | Binwei Yao</title>
-    <link>http://localhost:1313/tags/java/</link>
-      <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://bigbinnie.github.io/tags/java/</link>
+      <atom:link href="https://bigbinnie.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <description>Java</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
+      <url>https://bigbinnie.github.io/media/icon_hu14714844422874491346.png</url>
       <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
+      <link>https://bigbinnie.github.io/tags/java/</link>
     </image>
     
     <item>
-      <title>Programming III</title>
-      <link>http://localhost:1313/teaching/js-2/</link>
+      <title>CS400 Programming III</title>
+      <link>https://bigbinnie.github.io/teaching/js-2/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js-2/</guid>
+      <guid>https://bigbinnie.github.io/teaching/js-2/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Programming III</title>
-      <link>http://localhost:1313/teaching/js/</link>
+      <title>CS400 Programming III</title>
+      <link>https://bigbinnie.github.io/teaching/js/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js/</guid>
+      <guid>https://bigbinnie.github.io/teaching/js/</guid>
       <description></description>
     </item>
     

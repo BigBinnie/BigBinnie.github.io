@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning | Binwei Yao</title>
-    <link>http://localhost:1313/tags/deep-learning/</link>
-      <atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://bigbinnie.github.io/tags/deep-learning/</link>
+      <atom:link href="https://bigbinnie.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
+      <url>https://bigbinnie.github.io/media/icon_hu14714844422874491346.png</url>
       <title>Deep Learning</title>
-      <link>http://localhost:1313/tags/deep-learning/</link>
+      <link>https://bigbinnie.github.io/tags/deep-learning/</link>
     </image>
     
     <item>
       <title>MobileNet</title>
-      <link>http://localhost:1313/project/1-mobilenet/</link>
+      <link>https://bigbinnie.github.io/project/1-mobilenet/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/1-mobilenet/</guid>
+      <guid>https://bigbinnie.github.io/project/1-mobilenet/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1801.04381.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MobileNet&lt;/a&gt; is a class of efficient light weight deep networks for mobile and embedded vision applications, which have fewer parameters and a relatively lower amount of calculation. Mobilenets use depthwise separable convolutions, which could be divided into depthwise and pointwise convolutions.&lt;/p&gt;
 &lt;p&gt;Since most of the model&amp;rsquo;s operations are convolutions, our project focuses on optimizing the related operations of convolutions. Our optimizing method includes: improving the parallelism by assigning the calculation task of each pixel to a thread, avoiding unnecessary memory data handling, and putting operations such as memory application in the model initialization stage as much as possible.&lt;/p&gt;
 &lt;p&gt;With above optimizations, we went from 2s per inference initially to only 7.7ms per inference.&lt;/p&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>Hierarchical Chatbot</title>
-      <link>http://localhost:1313/project/2-chatbot/</link>
+      <link>https://bigbinnie.github.io/project/2-chatbot/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/2-chatbot/</guid>
+      <guid>https://bigbinnie.github.io/project/2-chatbot/</guid>
       <description>&lt;p&gt;The chatbot has a hierarchical framework comprising the utterance encoder, the context encoder, and the decoder. RNN, as the utterance encoder, encodes the words in an utterance. The transformer encoder, as the context encoder, encodes the utterance encoder&amp;rsquo;s output, and the RNN decoder takes the attention calculation result of the context encoder as the input.&lt;/p&gt;
 &lt;p&gt;The strength of such a model is that the utterance encoder makes it possible for us to input a more extended context of the dialogue for restriction by the Transformer&amp;rsquo;s input size. Considering the Transformer we used isn&amp;rsquo;t pretrained in advance, the model performance is limited.&lt;/p&gt;
 &lt;p&gt;The model implemented by us is 0.03 higher than the baseline on F1_BLEU.&lt;/p&gt;
@@ -36,9 +36,9 @@
     
     <item>
       <title>SRCNN</title>
-      <link>http://localhost:1313/project/3-srcnn/</link>
+      <link>https://bigbinnie.github.io/project/3-srcnn/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/3-srcnn/</guid>
+      <guid>https://bigbinnie.github.io/project/3-srcnn/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1501.00092.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SRCNN&lt;/a&gt; learns an end-to-end
 mapping between the low/high-resolution images by convolutional neural network (CNN). Given a low-resolution image Y, the first convolutional layer of the SRCNN extracts a set of feature maps. The second layer maps these feature maps nonlinearly to high-resolution patch representations. The last layer combines the predictions within a spatial neighbourhood to produce the final high-resolution image.&lt;/p&gt;
 &lt;p&gt;This learning project aims at reproducing the SRCNN.&lt;/p&gt;

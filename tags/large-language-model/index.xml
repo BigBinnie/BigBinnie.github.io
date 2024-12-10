@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Large Language Model | Binwei Yao</title>
-    <link>http://localhost:1313/tags/large-language-model/</link>
-      <atom:link href="http://localhost:1313/tags/large-language-model/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://bigbinnie.github.io/tags/large-language-model/</link>
+      <atom:link href="https://bigbinnie.github.io/tags/large-language-model/index.xml" rel="self" type="application/rss+xml" />
     <description>Large Language Model</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
+      <url>https://bigbinnie.github.io/media/icon_hu14714844422874491346.png</url>
       <title>Large Language Model</title>
-      <link>http://localhost:1313/tags/large-language-model/</link>
+      <link>https://bigbinnie.github.io/tags/large-language-model/</link>
     </image>
     
     <item>
       <title>No Preference Left Behind: Group Distributional Preference Optimization</title>
-      <link>http://localhost:1313/publication/gdpo/</link>
+      <link>https://bigbinnie.github.io/publication/gdpo/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gdpo/</guid>
+      <guid>https://bigbinnie.github.io/publication/gdpo/</guid>
       <description>&lt;!-- 
 
 

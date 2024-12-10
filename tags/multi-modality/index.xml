@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multi-Modality | Binwei Yao</title>
-    <link>http://localhost:1313/tags/multi-modality/</link>
-      <atom:link href="http://localhost:1313/tags/multi-modality/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://bigbinnie.github.io/tags/multi-modality/</link>
+      <atom:link href="https://bigbinnie.github.io/tags/multi-modality/index.xml" rel="self" type="application/rss+xml" />
     <description>Multi-Modality</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
+      <url>https://bigbinnie.github.io/media/icon_hu14714844422874491346.png</url>
       <title>Multi-Modality</title>
-      <link>http://localhost:1313/tags/multi-modality/</link>
+      <link>https://bigbinnie.github.io/tags/multi-modality/</link>
     </image>
     
     <item>
       <title>MSDWild: Multi­modal Speaker Diarization Dataset in the Wild</title>
-      <link>http://localhost:1313/publication/mswild/</link>
+      <link>https://bigbinnie.github.io/publication/mswild/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mswild/</guid>
+      <guid>https://bigbinnie.github.io/publication/mswild/</guid>
       <description>&lt;!-- 
 
 

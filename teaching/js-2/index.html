@@ -3,7 +3,7 @@
 <!-- Last Published: December 10, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="Advanced Data Structure and Basic Java Development" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/teaching/js-2/" />
+  <link rel="alternate" hreflang="en-us" href="https://bigbinnie.github.io/teaching/js-2/" />
 
   
   
@@ -130,6 +130,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EMXXCFEZ4M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-EMXXCFEZ4M', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -161,7 +200,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu17322968340610838727.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu14229475664977678788.png" />
 
-  <link rel="canonical" href="http://localhost:1313/teaching/js-2/" />
+  <link rel="canonical" href="https://bigbinnie.github.io/teaching/js-2/" />
 
   
   
@@ -186,10 +225,10 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Binwei Yao" />
-  <meta property="og:url" content="http://localhost:1313/teaching/js-2/" />
+  <meta property="og:url" content="https://bigbinnie.github.io/teaching/js-2/" />
   <meta property="og:title" content="CS400 Programming III | Binwei Yao" />
-  <meta property="og:description" content="Advanced Data Structure and Basic Java Development" /><meta property="og:image" content="http://localhost:1313/teaching/js-2/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/teaching/js-2/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Advanced Data Structure and Basic Java Development" /><meta property="og:image" content="https://bigbinnie.github.io/teaching/js-2/featured.jpg" />
+    <meta property="twitter:image" content="https://bigbinnie.github.io/teaching/js-2/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -513,8 +552,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
   ></script>
 
   
@@ -990,7 +1029,7 @@
       <div class="mb-1">
         <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400">
       <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
-        <a href="http://localhost:1313/teaching/">Teaching as Teaching Assitant</a>
+        <a href="https://bigbinnie.github.io/teaching/">Teaching as Teaching Assitant</a>
       </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">CS400 Programming III</div>
 </div>
 
