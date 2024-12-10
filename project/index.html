@@ -1,15 +1,13 @@
-<!DOCTYPE html><html lang="en-us" >
-
-
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: December 10, 2024 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
-  
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
 
   
   
@@ -24,41 +22,6 @@
 
 
 
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
 
   
   
@@ -78,237 +41,118 @@
   
     
   
-  <meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
+  <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://github.io/project/" />
-
-  
-  
-  
-    <meta name="theme-color" content="#1565c0" />
-  
-
-  
-  
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
-
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-    
-    
-    
-      
-      
-    
-    
-    
-
-    
-    
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-        
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-  
+  <link rel="alternate" hreflang="en-us" href="https://example.com/project/" />
 
   
   
   
   
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
   
-  
-  <link rel="stylesheet" href="/css/wowchemy.e16b071c3437dd38fe4bc6049c3c2fff.css" />
 
-  
-  
-  
-  
-  
   
   
     
-    
-    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    <link href="/dist/wc.min.css" rel="stylesheet" />
   
 
   
   
+  
 
+  
 
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EMXXCFEZ4M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
     }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
 
-  gtag('js', new Date());
-  gtag('config', 'G-EMXXCFEZ4M', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
 
   
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
-  
-
-
-  
-
-
-
-
   
   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
   
@@ -316,13 +160,10 @@
   
 
   
-  
+  <link rel="icon" type="image/png" href="/media/icon_hu17322968340610838727.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu14229475664977678788.png" />
 
-  
-  <link rel="icon" type="image/png" href="/media/icon_hu4432d98614fd4a3cfcb53f08870846bc_12792_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4432d98614fd4a3cfcb53f08870846bc_12792_180x180_fill_lanczos_center_3.png" />
-
-  <link rel="canonical" href="https://github.io/project/" />
+  <link rel="canonical" href="https://example.com/project/" />
 
   
   
@@ -344,14 +185,14 @@
   
   <meta property="twitter:card" content="summary" />
   
-    <meta property="twitter:site" content="@wowchemy" />
-    <meta property="twitter:creator" content="@wowchemy" />
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Binwei Yao" />
-  <meta property="og:url" content="https://github.io/project/" />
+  <meta property="og:url" content="https://example.com/project/" />
   <meta property="og:title" content="Projects | Binwei Yao" />
-  <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://github.io/media/icon_hu4432d98614fd4a3cfcb53f08870846bc_12792_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://github.io/media/icon_hu4432d98614fd4a3cfcb53f08870846bc_12792_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://example.com/media/icon_hu14714844422874491346.png" />
+    <meta property="twitter:image" content="https://example.com/media/icon_hu14714844422874491346.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2022-02-09T00:00:00&#43;00:00" />
@@ -362,8 +203,6 @@
 
 
 
-  
-
 
   <title>Projects | Binwei Yao</title>
 
@@ -371,6 +210,260 @@
   
   
   
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
@@ -378,358 +471,200 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
 
 
 
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.613040fe4f2c0f007b4dcb64404201cb.js"></script>
-
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
       
       
-
       
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
         
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-
-  <div class="page-header">
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Binwei Yao">
+        Binwei Yao
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
     
 
-
-
-
-
-
-
-
-
-
-
-
-<header class="header--fixed">
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
-
-      
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Binwei Yao</a>
-      </div>
-      
-
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Binwei Yao</a>
-      </div>
-      
-
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >Bio</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#papers"
+        >Papers</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/projects/"
+        >Projects</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/teaching/"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+    </ul>
 
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
 
-          
+      
+      
+      
 
-          
-          
-          
-            
-          
+      
+      
 
-          
+      
+      
 
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#about"><span>Home</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#publications"><span>Publications</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#projects"><span>Projects</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#experience"><span>Experience</span></a>
-          </li>
-
-          
-          
-
-        
-
-          
-        </ul>
-      </div>
-
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        
-        
-          
-        
-
-        
-        
-
-        
-        
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
-          </div>
-        </li>
-        
-
-        
-        
-
-      </ul>
-
+      
+      
     </div>
   </nav>
 </header>
 
 
-  </div>
 
-  <div class="page-body">
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      
+
+<div class="max-w-prose mx-auto flex justify-center">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+    <h1 class="lg:text-6xl">Projects</h1>
     
-    
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Projects</h1>
-
-  
-
-  
+  </article>
 </div>
 
 
 
-<div class="universal-wrapper">
+
+<div class="flex flex-col items-center">
+
+  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
+
+
   
-
   
-  
-    
-
-
-
-
-
-
-
   
 
 
@@ -738,750 +673,278 @@
 
 
 
-  
 
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/0-depression/" >Depression Screening Agent</a>
-    </div>
-
-    
-    <a href="/project/0-depression/"  class="summary-link">
-      <div class="article-style">
-        A rule-based agent for depression screening on Android by Java
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
+<a href="/project/0-depression/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
       
-
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/0-depression/featured_hu9211217647895247077.webp" height="655" width="655" alt="Depression Screening Agent">
       
     </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/JE_T-9WyNsY" target="_blank" rel="noopener">
-  Video
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Depression Screening Agent</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        A rule-based agent for depression screening on Android by Java</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 9, 2022</p>
+    </div>
+  </div>
 </a>
 
+  
+  
 
 
 
 
+
+
+
+
+<a href="/project/1-mobilenet/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/1-mobilenet/featured_hu128415592408019859.webp" height="655" width="655" alt="MobileNet">
+      
     </div>
-    
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">MobileNet</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        MobileNetV2 inference optimization implemented by Cuda</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jan 9, 2022</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/project/3-srcnn/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/3-srcnn/featured_hu6553521620423245477.webp" height="655" width="655" alt="SRCNN">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">SRCNN</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        Reproduction of the basic image super ­resolution model ­SRCNN</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jun 1, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/project/2-chatbot/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/2-chatbot/featured_hu16672455076277551157.webp" height="655" width="655" alt="Hierarchical Chatbot">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Hierarchical Chatbot</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        A chatbot implemented by a hierarchical framework</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jun 1, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/project/4-gdocs/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/4-gdocs/featured_hu14033607354329424136.webp" height="655" width="655" alt="Naive Gdocs">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Naive Gdocs</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        A shared document collaboration platform based on the distributed file system</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">May 30, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/project/5-amoy/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/5-amoy/featured_hu8597860193747967517.webp" height="655" width="655" alt="Amoy Interest">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Amoy Interest</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        An interest-based social platform</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Sep 8, 2020</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/project/6-kvstore/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/project/6-kvstore/featured_hu4873531761185040646.webp" height="655" width="655" alt="KV Store">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">KV Store</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        A key-­value storage system basd on log-­structured merge-­tree and skiplist cache</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jul 8, 2020</p>
+    </div>
+  </div>
+</a>
+
+  
 
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/0-depression/" >
-      <img src="/project/0-depression/featured_hu1c68d4ccdaaea1de28680c55a2362b9d_155403_150x0_resize_q75_h2_lanczos_3.webp" height="47" width="150"
-           alt="Depression Screening Agent" loading="lazy">
-    </a>
-    
-  </div>
+
+
+  
+
+
 </div>
 
-  
-    
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/1-mobilenet/" >MobileNet</a>
     </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
     
-    <a href="/project/1-mobilenet/"  class="summary-link">
-      <div class="article-style">
-        MobileNetV2 inference optimization implemented by Cuda
-      </div>
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
     </a>
-    
+  </p>
 
-    <div class="stream-meta article-metadata">
 
-      
 
-      
-    </div>
 
-    
-    <div class="btn-links">
-      
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/BigBinnie/Mobilenet" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/1-mobilenet/" >
-      <img src="/project/1-mobilenet/featured_huf99ba65a964cdd42fc1572c81a6c10e2_830759_150x0_resize_q75_h2_lanczos_3.webp" height="81" width="150"
-           alt="MobileNet" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/2-chatbot/" >Hierarchical Chatbot</a>
-    </div>
-
-    
-    <a href="/project/2-chatbot/"  class="summary-link">
-      <div class="article-style">
-        A chatbot implemented by a hierarchical framework
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/BigBinnie/Chatbot" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/2-chatbot/" >
-      <img src="/project/2-chatbot/featured_hu4e4b1b9c9c246bcab0f9169ea10285eb_229947_150x0_resize_q75_h2_lanczos_3.webp" height="152" width="150"
-           alt="Hierarchical Chatbot" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/3-srcnn/" >SRCNN</a>
-    </div>
-
-    
-    <a href="/project/3-srcnn/"  class="summary-link">
-      <div class="article-style">
-        Reproduction of the basic image super ­resolution model ­SRCNN
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/BigBinnie/SRCNN" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/3-srcnn/" >
-      <img src="/project/3-srcnn/featured_huffd0ece973877d5e5b3677b1dd17f6f4_311686_150x0_resize_q75_h2_lanczos_3.webp" height="57" width="150"
-           alt="SRCNN" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/4-gdocs/" >Naive Gdocs</a>
-    </div>
-
-    
-    <a href="/project/4-gdocs/"  class="summary-link">
-      <div class="article-style">
-        A shared document collaboration platform based on the distributed file system
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/BigBinnie/gDocs_with_gfs" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/4-gdocs/" >
-      <img src="/project/4-gdocs/featured_hu783646e394d4d0b9ed7af41f3302a1fc_349598_150x0_resize_q75_h2_lanczos_3.webp" height="172" width="150"
-           alt="Naive Gdocs" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/5-amoy/" >Amoy Interest</a>
-    </div>
-
-    
-    <a href="/project/5-amoy/"  class="summary-link">
-      <div class="article-style">
-        An interest-based social platform
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/Amoy-interest" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/5-amoy/" >
-      <img src="/project/5-amoy/featured_hub0500a810d408e427ef0d5be8ad7605d_186835_150x0_resize_q75_h2_lanczos_3.webp" height="79" width="150"
-           alt="Amoy Interest" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/6-kvstore/" >KV Store</a>
-    </div>
-
-    
-    <a href="/project/6-kvstore/"  class="summary-link">
-      <div class="article-style">
-        A key-­value storage system basd on log-­structured merge-­tree and skiplist cache
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/BigBinnie/LSM-KV-Storage-System" target="_blank" rel="noopener">
-    <i class="fab fa-github mr-1"></i>Code</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/6-kvstore/" >
-      <img src="/project/6-kvstore/featured_hub6db32eed2eb584079e976facd4c5f93_199834_150x0_resize_q75_h2_lanczos_3.webp" height="81" width="150"
-           alt="KV Store" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-
-  
-
-</div>
-  </div>
-
-  <div class="page-footer">
-    
-    
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  
-
-
-
-
-  <p class="powered-by">
+  <p class="powered-by text-center">
     
     
     
@@ -1491,153 +954,26 @@
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
+
 </footer>
 
     </div>
+
     
-  </div>
+    
 
-  
 
 
-<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
 
 
 
 
-  
 
-  
-  
 
-  
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  <script id="search-hit-fuse-template" type="text/x-template">
-    <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-    </div>
-  </script>
-  
-    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-<script id="page-data" type="application/json">{"use_headroom":true}</script>
-
-
-
-  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
-
-
-
-
-
-
-
-
-  
-  
-
-
-<script src="/en/js/wowchemy.min.54dd6e4d8f2e4b1d098381b57f18dd83.js"></script>
-
-
-
-
-
-
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-        <pre><code></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>
