@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Translation | Binwei Yao</title>
-    <link>https://example.com/tags/machine-translation/</link>
-      <atom:link href="https://example.com/tags/machine-translation/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/machine-translation/</link>
+      <atom:link href="http://localhost:1313/tags/machine-translation/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Translation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>Machine Translation</title>
-      <link>https://example.com/tags/machine-translation/</link>
+      <link>http://localhost:1313/tags/machine-translation/</link>
     </image>
     
     <item>
       <title>Benchmarking Machine Translation with Cultural Awareness</title>
-      <link>https://example.com/publication/cmt/</link>
+      <link>http://localhost:1313/publication/cmt/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/cmt/</guid>
+      <guid>http://localhost:1313/publication/cmt/</guid>
       <description>&lt;!-- 
 
 

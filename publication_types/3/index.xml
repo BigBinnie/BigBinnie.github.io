@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Binwei Yao</title>
-    <link>https://example.com/publication_types/3/</link>
-      <atom:link href="https://example.com/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/3/</link>
+      <atom:link href="http://localhost:1313/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>3</title>
-      <link>https://example.com/publication_types/3/</link>
+      <link>http://localhost:1313/publication_types/3/</link>
     </image>
     
     <item>
       <title>No Preference Left Behind: Group Distributional Preference Optimization</title>
-      <link>https://example.com/publication/gdpo/</link>
+      <link>http://localhost:1313/publication/gdpo/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/gdpo/</guid>
+      <guid>http://localhost:1313/publication/gdpo/</guid>
       <description>&lt;!-- 
 
 
@@ -55,9 +55,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Towards Reliable and Empathetic Depression-Diagnosis-Oriented Chats</title>
-      <link>https://example.com/publication/d4-2/</link>
+      <link>http://localhost:1313/publication/d4-2/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/d4-2/</guid>
+      <guid>http://localhost:1313/publication/d4-2/</guid>
       <description>&lt;!-- 
 
 

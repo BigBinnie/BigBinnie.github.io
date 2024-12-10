@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preference Alignment | Binwei Yao</title>
-    <link>https://example.com/tags/preference-alignment/</link>
-      <atom:link href="https://example.com/tags/preference-alignment/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/preference-alignment/</link>
+      <atom:link href="http://localhost:1313/tags/preference-alignment/index.xml" rel="self" type="application/rss+xml" />
     <description>Preference Alignment</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>Preference Alignment</title>
-      <link>https://example.com/tags/preference-alignment/</link>
+      <link>http://localhost:1313/tags/preference-alignment/</link>
     </image>
     
     <item>
       <title>No Preference Left Behind: Group Distributional Preference Optimization</title>
-      <link>https://example.com/publication/gdpo/</link>
+      <link>http://localhost:1313/publication/gdpo/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/gdpo/</guid>
+      <guid>http://localhost:1313/publication/gdpo/</guid>
       <description>&lt;!-- 
 
 

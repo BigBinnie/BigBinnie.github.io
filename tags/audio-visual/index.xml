@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Audio-Visual | Binwei Yao</title>
-    <link>https://example.com/tags/audio-visual/</link>
-      <atom:link href="https://example.com/tags/audio-visual/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/audio-visual/</link>
+      <atom:link href="http://localhost:1313/tags/audio-visual/index.xml" rel="self" type="application/rss+xml" />
     <description>Audio-Visual</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>Audio-Visual</title>
-      <link>https://example.com/tags/audio-visual/</link>
+      <link>http://localhost:1313/tags/audio-visual/</link>
     </image>
     
     <item>
       <title>MSDWild: Multi­modal Speaker Diarization Dataset in the Wild</title>
-      <link>https://example.com/publication/mswild/</link>
+      <link>http://localhost:1313/publication/mswild/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/mswild/</guid>
+      <guid>http://localhost:1313/publication/mswild/</guid>
       <description>&lt;!-- 
 
 

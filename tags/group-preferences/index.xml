@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Group Preferences | Binwei Yao</title>
-    <link>https://example.com/tags/group-preferences/</link>
-      <atom:link href="https://example.com/tags/group-preferences/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/group-preferences/</link>
+      <atom:link href="http://localhost:1313/tags/group-preferences/index.xml" rel="self" type="application/rss+xml" />
     <description>Group Preferences</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>Group Preferences</title>
-      <link>https://example.com/tags/group-preferences/</link>
+      <link>http://localhost:1313/tags/group-preferences/</link>
     </image>
     
     <item>
       <title>No Preference Left Behind: Group Distributional Preference Optimization</title>
-      <link>https://example.com/publication/gdpo/</link>
+      <link>http://localhost:1313/publication/gdpo/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/gdpo/</guid>
+      <guid>http://localhost:1313/publication/gdpo/</guid>
       <description>&lt;!-- 
 
 

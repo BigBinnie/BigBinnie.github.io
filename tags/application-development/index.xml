@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Application Development | Binwei Yao</title>
-    <link>https://example.com/tags/application-development/</link>
-      <atom:link href="https://example.com/tags/application-development/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/application-development/</link>
+      <atom:link href="http://localhost:1313/tags/application-development/index.xml" rel="self" type="application/rss+xml" />
     <description>Application Development</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>Application Development</title>
-      <link>https://example.com/tags/application-development/</link>
+      <link>http://localhost:1313/tags/application-development/</link>
     </image>
     
     <item>
       <title>Depression Screening Agent</title>
-      <link>https://example.com/project/0-depression/</link>
+      <link>http://localhost:1313/project/0-depression/</link>
       <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/0-depression/</guid>
+      <guid>http://localhost:1313/project/0-depression/</guid>
       <description>&lt;p&gt;The Adroid App is aimed at collecting depression symptoms of users for depression screening, which supports the speech input.&lt;/p&gt;
 &lt;p&gt;The NLU model for intent recognization of NLU module is based on similarity calculation and regular matching and the NLG model for response generation of the dialogue managment module is based on the state machine. Meanwhile, core depressive symptoms are extracted into semantic slots and stored in the dialogue state to control the dialogue flow in a user-specific way.&lt;/p&gt;
 </description>

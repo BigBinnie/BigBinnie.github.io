@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dialogue System | Binwei Yao</title>
-    <link>https://example.com/tags/dialogue-system/</link>
-      <atom:link href="https://example.com/tags/dialogue-system/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/dialogue-system/</link>
+      <atom:link href="http://localhost:1313/tags/dialogue-system/index.xml" rel="self" type="application/rss+xml" />
     <description>Dialogue System</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>Dialogue System</title>
-      <link>https://example.com/tags/dialogue-system/</link>
+      <link>http://localhost:1313/tags/dialogue-system/</link>
     </image>
     
     <item>
       <title>Towards Reliable and Empathetic Depression-Diagnosis-Oriented Chats</title>
-      <link>https://example.com/publication/d4-2/</link>
+      <link>http://localhost:1313/publication/d4-2/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/d4-2/</guid>
+      <guid>http://localhost:1313/publication/d4-2/</guid>
       <description>&lt;!-- 
 
 
@@ -55,9 +55,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>D4: a Chinese Dialogue Dataset for Depression-­Diagnosis-­Oriented Chat</title>
-      <link>https://example.com/publication/d4/</link>
+      <link>http://localhost:1313/publication/d4/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/d4/</guid>
+      <guid>http://localhost:1313/publication/d4/</guid>
       <description>&lt;!-- 
 
 

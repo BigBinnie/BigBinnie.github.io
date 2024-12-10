@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Stroge System | Binwei Yao</title>
-    <link>https://example.com/tags/data-stroge-system/</link>
-      <atom:link href="https://example.com/tags/data-stroge-system/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/data-stroge-system/</link>
+      <atom:link href="http://localhost:1313/tags/data-stroge-system/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Stroge System</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu14714844422874491346.png</url>
+      <url>http://localhost:1313/media/icon_hu14714844422874491346.png</url>
       <title>Data Stroge System</title>
-      <link>https://example.com/tags/data-stroge-system/</link>
+      <link>http://localhost:1313/tags/data-stroge-system/</link>
     </image>
     
     <item>
       <title>KV Store</title>
-      <link>https://example.com/project/6-kvstore/</link>
+      <link>http://localhost:1313/project/6-kvstore/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/6-kvstore/</guid>
+      <guid>http://localhost:1313/project/6-kvstore/</guid>
       <description>&lt;p&gt;The KV storage system is based on a log-­structured merge-­tree in the disk and skiplist cache in memory. The MemTable in memory caches small-scale data in memory for quick read-write operations, and the SSTable have a level structure which stores data by a log-structured merge-tree.&lt;/p&gt;
 &lt;p&gt;By optimizing the way of adding, deleting, checking, and modifying using algorithms like MergeSort, I constructed a quick KV Store system.&lt;/p&gt;
 </description>
